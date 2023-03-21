@@ -416,6 +416,25 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form">
+          <label for="email" class="form-lable">Subscribe</label>
+          <div class="footer-form-thumb">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              class="form-input"
+            />
+            <button type="submit" class="form-button">
+              Subscribe
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon_send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
 
@@ -428,6 +447,75 @@
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
         </button>
+
+        <form class="modal-form">
+          <h2 class="modal-form-title">
+            Leave your contacts and we will call you back
+          </h2>
+          <ul class="modal-form-list list">
+            <li class="modal-form-item">
+              <label class="modal-form-lable">
+                <span class="modal-form-text">Name</span>
+                <span class="modal-form-thumb">
+                  <input
+                    type="text"
+                    name="user-name"
+                    class="modal-form-input"
+                  />
+                  <svg class="modal-form-icon">
+                    <use href="./images/icons.svg#person-black"></use>
+                  </svg>
+                </span>
+              </label>
+            </li>
+            <li class="modal-form-item">
+              <label class="modal-form-lable">
+                <span class="modal-form-text">Phone</span>
+                <span class="modal-form-thumb">
+                  <input type="tel" name="phone" class="modal-form-input" />
+                  <svg class="modal-form-icon">
+                    <use href="./images/icons.svg#phone-black"></use>
+                  </svg>
+                </span>
+              </label>
+            </li>
+            <li class="modal-form-item">
+              <label class="modal-form-lable">
+                <span class="modal-form-text">Email</span>
+                <span class="modal-form-thumb">
+                  <input type="email" name="email" class="modal-form-input" />
+                  <svg class="modal-form-icon">
+                    <use href="./images/icons.svg#email-black"></use>
+                  </svg>
+                </span>
+              </label>
+            </li>
+            <li class="modal-form-item">
+              <label class="modal-form-lable">
+                <span class="modal-form-text">Comment</span>
+                <textarea
+                  name="comment"
+                  class="modal-form-textarea"
+                  placeholder="Text input"
+                ></textarea>
+              </label>
+            </li>
+          </ul>
+          <label class="modal-check-lable">
+            <input
+              type="checkbox"
+              name="privacy"
+              class="modal-form-check"
+            /><span class="modal-check-text"
+              >I accept the terms and conditions of the
+              <a href="" class="modal-chech-link">Privacy Policy</a></span
+            >
+            <svg class="modal-check-icon">
+              <use href="./images/icons.svg#form-default"></use>
+            </svg>
+          </label>
+          <button type="submit" class="modal-send">Send</button>
+        </form>
       </div>
     </div>
 
